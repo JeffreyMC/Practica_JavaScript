@@ -28,6 +28,9 @@ function agregarItem(e) {
     li.appendChild(btnDel)
 
     lista.appendChild(li)
+
+    // limpia el campo
+    document.getElementById('item').value = ''
 }
 
 function eliminarItem(e) {
